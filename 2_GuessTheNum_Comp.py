@@ -12,4 +12,5 @@ def guess(x):
 
     print(f"Yay! Congrats, you guessed the number {randomNum} correctly!")
 
-guess(10)
+limit = int(input("Enter the highest number you want to guess to: "))
+guess(limit)
