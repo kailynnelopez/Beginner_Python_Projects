@@ -24,7 +24,7 @@ f.close()
 
 def get_valid_song(songs):
     song = random.choice(songs)
-    while "'" in song or '(' in song:
+    while "'" in song or '(' in song or "," in song:
         song = random.choice(songs)
     
     return song
